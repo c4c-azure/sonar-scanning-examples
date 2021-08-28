@@ -27,7 +27,7 @@ steps:
 - task: SonarCloudPrepare@1
   displayName: 'Prepare analysis configuration'
   inputs:
-    SonarCloud: 'SC'
+    SonarCloud: 'sonarcloud'
     organization: 'pioneer-co'
     scannerMode: 'MSBuild'
     projectKey: 'Pioneer-Co_Website-Sonar'
